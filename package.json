@@ -1,0 +1,24 @@
+{
+  "name": "gramsaathi-rural-health-app",
+  "version": "1.0.0",
+  "description": "GramSaathi: Rural Early-Warning, Triage & Clinical Referral Platform",
+  "main": "backend/src/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
+    "start": "node backend/src/server.js",
+    "start:backend": "node backend/src/server.js",
+    "start:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "rural-health",
+    "offline-first",
+    "asha-worker",
+    "triage",
+    "outbreak-surveillance",
+    "dpdp-act",
+    "fhir"
+  ],
+  "author": "GramSaathi Team",
+  "license": "MIT"
+}
